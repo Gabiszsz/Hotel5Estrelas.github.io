@@ -391,3 +391,47 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+/* Estilos para a faixa/banner promocional */
+.promo-banner {
+  background-color: #f6f4f3; /* Cor vibrante para destacar */
+  color: rgb(238, 14, 14);
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 1.0rem; /* Tamanho maior para destacar */
+  font-weight: bold; /* Tipografia em negrito */
+  margin: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para mais destaque */
+}
+
+.imagens-quarto img {
+  flex: 1 1 250px;
+  max-width: 32%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Efeito de escurecimento ao passar o mouse */
+.imagens-quarto img:hover {
+  transform: scale(1.05);
+  filter: brightness(70%);
+}
+
+button {
+  background-color: navy;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.4s ease, transform 0.3s ease;
+}
+
+/* Ao passar o mouse: muda cor e cresce levemente */
+button:hover {
+  background-color: #0033cc; /* azul mais claro */
+  transform: scale(1.07);
+}
